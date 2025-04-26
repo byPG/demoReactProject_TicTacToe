@@ -13,8 +13,6 @@ export default function Player({initialName, symbol}){
         
     }
 
-
-
     let editablePlayerName = <span className="player-name">{playerName}</span>;
     let btnCaption = 'Edit';
 
@@ -22,8 +20,6 @@ export default function Player({initialName, symbol}){
         editablePlayerName = <input type="text" required value={playerName} onChange={handleChange} />
         // btnCaption= "Save";
     }
-
-   
 
     return(
         <li>
