@@ -40,5 +40,4 @@ function handleSelectSquare(rowIndex, colIndex){
     </main>
   )
 }
-
 export default App
